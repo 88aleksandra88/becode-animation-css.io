@@ -88,16 +88,18 @@ body {
   font-size: 1.3em;
   color: #91222C;
   font-weight: bold;
+  font-size: 30px;
 }
 
 .cardContent .subtitle {
   margin-bottom: 20px;
   font-size: 1.2em;
   font-weight: normal;
+  font-size: 30px;
 }
 
 .Details {
-  position: relative;
+  position: absolute;
   bottom: 3px;
   font-size: 15px;
   color: #91222C;
