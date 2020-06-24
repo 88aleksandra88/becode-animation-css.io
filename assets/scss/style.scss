@@ -1,0 +1,98 @@
+/*# sourceMappingURL=style.css.map */
+body {
+	font-family: "Metal Mania", cursive;
+	font-size: 15px;
+	line-height: 1.2;
+}
+.card {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: #E3AB72;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+	transition: box-shadow 0.3s;
+	width: 370px;
+	&:hover {
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+		.card__img {
+			height: 100px;
+		}
+		img {
+			opacity: 0.7;
+			transform: scale(1.3);
+		}
+		.cardContent {
+			height: 330px;
+		
+		}
+	}
+}
+.cardImg {
+    background-color: #000000;
+    height: 235px;
+	width: 370px;
+	overflow: hidden;
+	transition: height 0.2s;
+	img {
+		width: 100%;
+		opacity: 1;
+		display: block;
+		transition: opacity 0.2s, transform 0.9s;
+	}
+}
+.date {
+	position: absolute;
+	background-color: #91222C;
+    color: #FFFFFF;
+    border-radius: 50%;
+	line-height: 19px;
+	font-weight: normal;
+	padding: 4px;
+    text-align: center;
+	top: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	.day {
+		font-size: 12px;
+	}
+}
+.cardContent {
+	position: relative;
+	padding: 20px;
+	height: 115px;
+	transition: height 0.3s;
+	.tab {
+		position: absolute;
+		background-color: #91222C;
+		color: #FFFFFF;
+		top: -27px;
+		left: 0px;
+		padding: 5px 10px;
+		font-weight: bold;
+	}
+	.title {
+		font-size: 1.3em;
+		color: #91222C;
+		font-weight: bold;
+	}
+	.subtitle {
+		margin-bottom: 20px;
+		font-size: 1.2em;
+		font-weight: normal;
+	}
+}
+.Details {
+	position: relative;
+	bottom: 3px;
+	font-size: 15px;
+	color: #91222C;
+    left: 30px;
+    margin-bottom: 5px;
+    
+    
+
+
+}
