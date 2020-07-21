@@ -17,4 +17,5 @@ Echéance:
 -----------------------------------
 Collaborateur:
 (https://github.com/88aleksandra88)
-Projec: (https://88aleksandra88.github.io/becode-animation-css.io/)
+
+Project: (https://88aleksandra88.github.io/becode-animation-css.io/)
