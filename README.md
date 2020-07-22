@@ -1,5 +1,6 @@
- Les animations css
-=============
+## Les animations css
+<img src="https://media2.giphy.com/media/3ov9k3yFi2YmRO4MTe/source.gif">
+
  Objectifs:
 ------------
 * Apprendre les bases de l'animation
